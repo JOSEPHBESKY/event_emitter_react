@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import Second from './Second'
+import React, { Component } from 'react';
+import Second from './Second';
 export class Second extends Component {
     constructor(){
-        super()
+        super();
         this.state={
-            data:null
+            data:null;
         }
     }
     receivedata=(data)=>{
-      this.setState([data])
+      this.setState([data]);
     }
   render() {
     return (
@@ -20,4 +20,4 @@ export class Second extends Component {
   }
 }
 
-export default Second
+export default Second;
