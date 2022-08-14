@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class First extends Component {
     constructor (props){
-        super(props)
+        super(props);
         this.state={
 
         }
     }
     handlechange=(e)=>{
-        this.setState([ e.target.value])
+        this.setState([ e.target.value]);
     }
     transfer=()=>{
-        this.props.receivedata (this.state.value)
+        this.props.receivedata (this.state.value);
     }
   render() {
     return (
