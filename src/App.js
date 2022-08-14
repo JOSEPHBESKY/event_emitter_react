@@ -1,13 +1,13 @@
-import React from 'react'
-import Hello from './Hello'
-import {useState} from 'react'
+import React from 'react';
+import Hello from './Hello';
+import {useState} from 'react';
 
 function App() {
-  const [uicolor,setuicolor]=useState()
+  const [uicolor,setuicolor]=useState();
   console.log(uicolor); 
 
   const getcolor=(color)=>{
-    setuicolor(color)
+    setuicolor(color);
   }
   return (
     <div>
@@ -17,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
