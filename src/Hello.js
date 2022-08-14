@@ -1,11 +1,11 @@
-import React from 'react'
-import {useState} from 'react'
+import React from 'react';
+import {useState} from 'react';
 function Hello ({getcolor}) {
     const [activecolor,setActivecolor]=useState([])
     const handle=(e)=>{
-        const { value }=e.target
-        setActivecolor(value)
-       getcolor(value)
+        const { value }=e.target;
+        setActivecolor(value);
+       getcolor(value);
     }
   return (
     <div>
@@ -14,4 +14,4 @@ function Hello ({getcolor}) {
   )
 }
 
-export default Hello
+export default Hello;
