@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class App extends Component {
   state={
@@ -7,7 +7,7 @@ export default class App extends Component {
   }
   change(e){
     if(name='changecolor'){
-      this.setState({color:'red'})
+      this.setState({color:'red'});
     }
     this.setState({name:e.target.value})
   }
